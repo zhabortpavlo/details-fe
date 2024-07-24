@@ -1,0 +1,12 @@
+<div class="products-container">
+  <div class="product-card" *ngFor="let detail of details$">
+    <div class="product-info">
+      <h3 class="product-title">{{ detail.name }}</h3>
+      <p class="product-price">{{ detail.price }}₴</p>
+      <p class="product-availability">{{ detail.price }}</p>
+      <p>{{ detail.note }}</p>
+      <button mat-raised-button color="primary">Купити</button>
+      <button mat-raised-button color="primary">Історія цін</button>
+    </div>
+  </div>
+</div>
